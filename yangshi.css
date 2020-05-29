@@ -181,6 +181,7 @@
 	text-align: center;
 	width: 1200px;
 	height: 40px;
+	position: relative;
 }
 .kecheng2 .left{
 	float: left;
@@ -224,9 +225,9 @@
 	font-size: 12px;
 }
 .kecheng2>.top>ul{
-	float: left;
 	display: inline-block;
-	margin-left: 290px;
+	position: absolute;
+	left: 33%;
 }
 .kecheng2>.top>ul>li{
 	display: inline-block;
